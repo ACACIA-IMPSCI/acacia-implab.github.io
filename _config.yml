@@ -24,7 +24,7 @@ components:
     # weibo,qq,wechat,douban,qzone,linkedin,facebook,twitter
     share:
         enabled: false
-        hide-platforms: qq,facebook
+        hide-platforms: qq,facebook,wechat,twitter
     # 不蒜子访问统计
     busuanzi:
         enabled: false
@@ -134,12 +134,12 @@ collections:
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk, utterances, beaudar, giscus
-comments_provider: giscus
+comments_provider: disqus
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # disqus 配置参考：https://disqus.com
-disqus:
-    username: 
+disqus: 
+    username: acacia-is
 # gitment 配置参考：https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: mzlogin
