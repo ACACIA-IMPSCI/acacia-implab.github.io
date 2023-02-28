@@ -10,20 +10,10 @@ permalink: /links/
 
 > God made relatives. Thank God we can choose our friends.
 
-<ul>
-{% for link in site.data.links %}
-  {% if link.src == 'life' %}
-  <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
+* [团队一](https://portal.smu.edu.cn/wsglxy/index.htm)
+* [团队二](https://portal.smu.edu.cn/wsglxy/index.htm)
 
 > 友情链接
 
-<ul>
-{% for link in site.data.links %}
-  {% if link.src == 'www' %}
-  <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
+* [组织一](https://portal.smu.edu.cn/wsglxy/index.htm)
+* [组织二](https://portal.smu.edu.cn/wsglxy/index.htm)

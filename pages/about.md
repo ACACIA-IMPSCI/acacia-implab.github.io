@@ -1,41 +1,26 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 好好做科研
+keywords: ACACIA
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+ACACIA
+=====================
+Primary heAlth Care quAlity Cohort In chinA(ACACIA)
+Unannounced Standardized Patient (USP) and Virtual Patient (VP) to Measure Quality of Primary Care
 
-仰慕「优雅编码的艺术」。
+For more information on ACACIA please visit the 
+[project website](https://www.researchgate.net/project/ACACIA-Study).
 
-坚信熟能生巧，努力改变人生。
-
-## 联系
-
-<ul>
-{% for website in site.data.social %}
-<li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
-{% endfor %}
-{% if site.url contains 'mazhuang.org' %}
-<li>
-微信公众号：<br />
-<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/qrcode.jpg" alt="闷骚的程序员" />
-</li>
-{% endif %}
-</ul>
+团队成员介绍
+======================
+[徐东教授](https://portal.smu.edu.cn/wsglxy/info/1345/3471.htm)
 
 
-## Skill Keywords
-
-{% for skill in site.data.skills %}
-### {{ skill.name }}
-<div class="btn-inline">
-{% for keyword in skill.keywords %}
-<button class="btn btn-outline" type="button">{{ keyword }}</button>
-{% endfor %}
-</div>
-{% endfor %}
+This website
+======================
+This website is to share the literature we have learn.
