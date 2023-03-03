@@ -5,7 +5,8 @@ baseurl:
 url:
 date_format: "ordinal"
 title: ""
-subtitle: "Acacia Lab for \n Implementation Science"
+subtitle: "Acacia Lab for"
+subtitle2: "Implementation Science"
 description: "ACACIA Lab IS 博客网站"
 keywords: Implementation Science, ACACIA
 timezone: Asia/Shanghai
